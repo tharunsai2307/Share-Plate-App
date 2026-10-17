@@ -13,7 +13,8 @@ node_modules/
 .npm/
 
 # ─── Non-Mobile Services & Docs ───────────────────────────────────────────────
-apps/admin/
+apps/admin/src/
+apps/admin/.next/
 supabase/
 docs/
 scripts/
