@@ -16,13 +16,4 @@ config.resolver.nodeModulesPaths = [
   path.resolve(monorepoRoot, 'node_modules'),
 ];
 
-// 3. Pin critical packages to apps/mobile's Expo SDK 52 versions
-config.resolver.extraNodeModules = {
-  'react-native': path.resolve(projectRoot, 'node_modules/react-native'),
-  'react': path.resolve(projectRoot, 'node_modules/react'),
-  'react-dom': path.resolve(projectRoot, 'node_modules/react-dom'),
-};
-
-config.resolver.disableHierarchicalLookup = true;
-
 module.exports = config;
