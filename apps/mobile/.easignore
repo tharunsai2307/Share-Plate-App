@@ -1,0 +1,21 @@
+# SharePlate Mobile EAS Ignore
+# Prevents oversized project archive and network timeouts during EAS upload
+
+# ─── Accidental Nested Expo Template (475 MB) ──────────────────────────────────
+share-plate/
+share-plate
+
+# ─── Dependencies & Caches ────────────────────────────────────────────────────
+node_modules/
+.expo/
+.npm/
+
+# ─── Environment & Secrets ────────────────────────────────────────────────────
+.env*.local
+.env.local
+
+# ─── Build Artifacts & Tests ──────────────────────────────────────────────────
+dist/
+build/
+coverage/
+*.log

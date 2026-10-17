@@ -1,0 +1,31 @@
+{
+  "name": "shareplate",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SharePlate — Food Rescue Platform. Good food deserves another destination.",
+  "workspaces": [
+    "apps/mobile",
+    "apps/admin",
+    "packages/shared"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces --if-present",
+    "test:shared": "npm run test -w packages/shared",
+    "test:admin": "npm run test -w apps/admin",
+    "test:e2e": "npm run test:e2e -w apps/admin",
+    "lint": "npm run lint --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "build": "npm run build --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "devDependencies": {
+    "expo-router": "~4.0.0"
+  },
+  "overrides": {
+    "react-native": "0.76.5"
+  }
+}
+
