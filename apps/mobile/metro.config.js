@@ -16,4 +16,10 @@ config.resolver.nodeModulesPaths = [
   path.resolve(monorepoRoot, 'node_modules'),
 ];
 
+// 3. Anchor serverRoot to projectRoot so entry-file resolves relative to apps/mobile
+config.server = {
+  ...config.server,
+  unstable_serverRoot: projectRoot,
+};
+
 module.exports = config;
