@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "SharePlate",
-    "slug": "share-plate",
+    "slug": "share-plate-t8whwstjdpuiwenwinm31",
     "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -35,7 +35,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "6cca2481-e1f9-4554-8852-0239f2735fc7"
+        "projectId": "b509bbba-f124-4356-81f6-45310cd0eea5"
       },
       "router": {
         "origin": false
@@ -46,7 +46,7 @@
       "policy": "appVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/6cca2481-e1f9-4554-8852-0239f2735fc7"
+      "url": "https://u.expo.dev/b509bbba-f124-4356-81f6-45310cd0eea5"
     }
   }
 }
